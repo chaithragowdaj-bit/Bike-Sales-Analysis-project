@@ -82,7 +82,8 @@ from bikesales
 group by customer_gender
 order by total_revenue desc;
 
---Yes, the most customer who buys the most bikes are 50, and male customers' purchases are less female(revenue=216049)
+--Yes, the most customer who buys the most bikes are females with 50 orders, and male customers' purchases are less compared female(revenue=216049)
+
 --let's see in the female gender which age_group category buys the most
 
 select sum(revenue) as total_revenue,
